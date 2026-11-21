@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sergio Frutos</title>
+  <meta name="description" content="Logística farmacéutica · Running · Estoicismo y tecnología">
+  <style>
+    :root {
+      --bg: #f8f9fa;
+      --card: #ffffff;
+      --text: #111827;
+      --muted: #6b7280;
+      --border: #e5e7eb;
+      --hover: #f3f4f6;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #0d1117;
+        --card: #161b22;
+        --text: #f0f6fc;
+        --muted: #8b949e;
+        --border: #30363d;
+        --hover: #21262d;
+      }
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      display: flex;
+      justify-content: center;
+      padding: 48px 20px;
+      line-height: 1.5;
+    }
+    main { width: 100%; max-width: 460px; text-align: center; }
+    h1 { font-size: 1.75rem; font-weight: 700; letter-spacing: -0.02em; }
+    .bio { color: var(--muted); font-size: 0.95rem; margin: 8px 0 32px; }
+    .section-title {
+      font-size: 0.75rem;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: var(--muted);
+      margin: 24px 0 10px;
+      font-weight: 600;
+    }
+    .links { display: flex; flex-direction: column; gap: 10px; }
+    a.btn {
+      display: block;
+      background: var(--card);
+      color: var(--text);
+      text-decoration: none;
+      padding: 13px 18px;
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      font-weight: 500;
+      font-size: 0.95rem;
+      transition: background 0.15s ease, transform 0.1s ease;
+    }
+    a.btn:hover { background: var(--hover); transform: translateY(-1px); }
+    footer { margin-top: 40px; font-size: 0.8rem; color: var(--muted); }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>Sergio Frutos</h1>
+    <p class="bio">Logística farmacéutica · Running · Estoicismo y tecnología</p>
+
+    <div class="section-title">@sergiofrutos · Profesional y abierto</div>
+    <div class="links">
+      <a class="btn" href="https://www.linkedin.com/in/sergiofrutos" rel="me noopener" target="_blank">LinkedIn</a>
+      <a class="btn" href="https://mastodon.social/@sergiofrutos" rel="me noopener" target="_blank">Mastodon</a>
+      <a class="btn" href="https://pixelfed.social/@sergiofrutos" rel="me noopener" target="_blank">Pixelfed</a>
+      <a class="btn" href="https://bsky.app/profile/sergiofrutos.bsky.social" rel="me noopener" target="_blank">Bluesky</a>
+      <a class="btn" href="https://www.strava.com/athletes/sergiofrutos" rel="me noopener" target="_blank">Strava</a>
+      <a class="btn" href="https://github.com/sergiofrutos" rel="me noopener" target="_blank">GitHub</a>
+    </div>
+
+    <div class="section-title">@sfrutosr · Redes y contenido</div>
+    <div class="links">
+      <a class="btn" href="https://x.com/sfrutosr" rel="me noopener" target="_blank">X (Twitter)</a>
+      <a class="btn" href="https://www.instagram.com/sfrutosr" rel="me noopener" target="_blank">Instagram</a>
+      <a class="btn" href="https://www.threads.net/@sfrutosr" rel="me noopener" target="_blank">Threads</a>
+      <a class="btn" href="https://www.youtube.com/@sfrutosr" rel="me noopener" target="_blank">YouTube</a>
+    </div>
+
+    <footer>© 2026 Sergio Frutos</footer>
+  </main>
+</body>
+</html>
